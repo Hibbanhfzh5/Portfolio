@@ -33,15 +33,15 @@ export default function handler(
     location:{ 
       city:"Jakarta", 
       country:"Indonesia", 
-      street:"Jl. Jalan"
+      street:"Jl. Otista 1A"
     },
     phone:{
       office:"021 88989",
-      personal:"0813 484994 999794", 
+      personal:"0813 88795949", 
       suport: null
     },
     social: {
-      email:"myname@mail.com",
+      email:"hibbanhafizh0@gmail.com",
       skype:"@myname",
       telegram:"@myname"
     }
