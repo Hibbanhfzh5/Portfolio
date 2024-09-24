@@ -59,7 +59,7 @@ export default function Contact(){
                             <textarea className="border my-input-text w-full"></textarea>
                         </div>
                         <div className="w-full py-2">
-                            <button className="mx-1 h-9 items-center justify-center px-4  rounded-md bg-blue-500">
+                            <button className="mx-1 h-9 items-center justify-center px-4  rounded-md bg-blue-500 text-white ">
                                 <label>Send Message</label>
                             </button>
                         </div>
@@ -69,19 +69,19 @@ export default function Contact(){
 
                 {
                     !isLoading && Object.keys(data.location).map(key => {
-                       return <ItemCard label={key} value={data.location[key]}/>
+                       return <ItemCard label={key} value={data.location[key]} key={key}/>
                     })
                 }
 
                 {
                     !isLoading && Object.keys(data.phone).map(key => {
-                       return <ItemCard label={key} value={data.phone[key]}/>
+                       return <ItemCard label={key} value={data.phone[key]} key={key}/>
                     })
                 }
 
                 {
                     !isLoading && Object.keys(data.social).map(key => {
-                       return <ItemCard label={key} value={data.social[key]}/>
+                       return <ItemCard label={key} value={data.social[key]} key={key}/>
                     })
                 }
                 
