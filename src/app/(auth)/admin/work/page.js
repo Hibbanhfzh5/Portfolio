@@ -64,7 +64,7 @@ export default function Adminwork() {
                         </div>
                         <div className="w-full py-2">
                             <button className="mx-0 h-9 mt-2 items-center justify-center px-6  rounded-md bg-blue-500 text-white ">
-                                <label>Save</label>
+                                <label>Save new</label>
                             </button>
                         </div>
                     </div>
